@@ -4,10 +4,7 @@ Cookiecutter PyPackage
 
 .. image:: https://pyup.io/repos/github/go-choppy/choppy-cookiecutter-pypackage/shield.svg
      :target: https://pyup.io/repos/github/go-choppy/choppy-cookiecutter-pypackage/
-     :alt: Updates
-
-.. image:: https://travis-ci.org/go-choppy/choppy-cookiecutter-pypackage.svg?branch=master
-    :target: https://travis-ci.org/go-choppy/choppy-cookiecutter-pypackage     
+     :alt: Updates 
 
 Cookiecutter_ template for a Python package.
 
