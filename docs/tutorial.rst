@@ -4,7 +4,7 @@ Tutorial
 .. note:: Did you find any of these instructions confusing? `Edit this file`_
           and submit a pull request with your improvements!
 
-.. _`Edit this file`: https://github.com/audreyr/cookiecutter-pypackage/blob/master/docs/tutorial.rst
+.. _`Edit this file`: https://github.com/go-choppy/choppy-cookiecutter-pypackage/blob/master/docs/tutorial.rst
 
 To start with, you will need a `GitHub account`_ and an account on `PyPI`_. Create these before you get started on this tutorial. If you are new to Git and GitHub, you should probably spend a few minutes on some of the tutorials at the top of the page at `GitHub Help`_.
 
@@ -53,7 +53,7 @@ Use cookiecutter, pointing it at the cookiecutter-pypackage repo:
 
 .. code-block:: bash
 
-    cookiecutter https://github.com/audreyr/cookiecutter-pypackage.git
+    cookiecutter https://github.com/go-choppy/choppy-cookiecutter-pypackage.git
 
 You'll be asked to enter a bunch of values to set the package up.
 If you don't know what to enter, stick with the defaults.
@@ -97,35 +97,7 @@ Your virtualenv should still be activated. If it isn't, activate it now. Install
     pip install -r requirements.txt
 
 
-Step 5: Set Up Travis CI
-------------------------
-
-`Travis CI org`_ [*]_ is a continuous integration tool used to prevent integration problems. Every commit to the master branch will trigger automated builds of the application.
-
-Login using your Github credentials. It may take a few minutes for Travis CI to load up a list of all your GitHub repos. They will be listed with boxes to the left of the repo name, where the boxes have an ``X`` in them, meaning it is not connected to Travis CI.
-
-Add the public repo to your Travis CI account by clicking the ``X`` to switch it "on" in the box next to the ``mypackage`` repo. Do not try to follow the other instructions, that will be taken care of next.
-
-In your terminal, your virtualenv should still be activated. If it isn't, activate it now. Run the Travis CLI tool to do your Travis CI setup:
-
-.. code-block:: bash
-
-    travis encrypt --add deploy.password
-
-This will:
-
-* Encrypt your PyPI password in your Travis config.
-* Activate automated deployment on PyPI when you push a new tag to master branch.
-
-See :ref:`travis-pypi-setup` for more information.
-
-.. [*] For private projects go to `Travis CI com`_
-
-.. _`Travis CI org`: https://travis-ci.org/
-.. _`Travis CI com`: https://travis-ci.com/
-
-
-Step 6: Set Up ReadTheDocs
+Step 5: Set Up ReadTheDocs
 --------------------------
 
 `ReadTheDocs`_ hosts documentation for the open source community. Think of it as Continuous Documentation.
@@ -140,7 +112,7 @@ Now your documentation will get rebuilt when you make documentation changes to y
 
 .. _`ReadTheDocs`: https://readthedocs.org/
 
-Step 7: Set Up pyup.io
+Step 6: Set Up pyup.io
 ----------------------
 
 `pyup.io`_ is a service that helps you to keep your requirements files up to date. It sends you automated
@@ -155,7 +127,7 @@ Once your repo is set up correctly, the pyup.io badge will show your current upd
 
 .. _`pyup.io`: https://pyup.io/
 
-Step 8: Release on PyPI
+Step 7: Release on PyPI
 -----------------------
 
 The Python Package Index or `PyPI`_ is the official third-party software repository for the Python programming language. Python developers intend it to be a comprehensive catalog of all open source Python packages.
@@ -175,4 +147,4 @@ Having problems?
 
 Visit our :ref:`troubleshooting` page for help. If that doesn't help, go to our `Issues`_ page and create a new Issue. Be sure to give as much information as possible.
 
-.. _`Issues`: https://github.com/audreyr/cookiecutter-pypackage/issues
+.. _`Issues`: https://github.com/go-choppy/choppy-cookiecutter-pypackage/issues
