@@ -1,4 +1,14 @@
-# -*- coding: utf-8 -*-
+#!/usr/bin/env python
+# PYTHON_ARGCOMPLETE_OK
+"""
+    {{cookiecutter.project_slug}}.cli
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+    {{ cookiecutter.project_short_description }}
+
+    :copyright: © 2019 by the Choppy Team.
+    :license: AGPLv3+, see LICENSE for more details.
+"""
 
 """Console script for {{cookiecutter.project_slug}}."""
 import sys
